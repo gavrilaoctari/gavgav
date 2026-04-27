@@ -2,15 +2,15 @@
 <br>
 <link rel="stylesheet" href="style.css">
     <div class="cont">
-        <div class="form sign-in">
+        <div class="form sign-in" id="loginForm">
             <h2>Selamat Datang!</h2>
             <label>
                 <span>Username</span>
-                <input type="text" />
+                <input type="text" id="username" />
             </label>
             <label>
                 <span>Password</span>
-                <input type="password" />
+                <input type="password" id="password"/>
             </label>
             <p class="forgot-pass">Lupa Password?</p>
             <button type="button" class="submit">Sign In</button>
@@ -356,3 +356,5 @@ input {
             document.querySelector('.cont').classList.toggle('s--signup');
         });
     </script>
+<script scr="js/login.js"></script>
+                        
