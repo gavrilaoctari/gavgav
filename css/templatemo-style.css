@@ -376,6 +376,7 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 40px;
+    max-width: 294px;
 }
 .tm-popular-items-container:last-child { margin-top: 15px; }
 .tm-popular-item-description {
