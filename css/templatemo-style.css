@@ -764,3 +764,16 @@ button.tm-more-button {
 @media screen and (max-width: 370px) {
   .tm-welcome-content { margin-bottom: 60px; }
 }
+
+
+.tm-section.row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 30px !important;
+}
+
+.tm-popular-item {
+    margin-top: 0 !important;
+}
