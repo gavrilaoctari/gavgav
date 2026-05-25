@@ -529,7 +529,13 @@ ol li:before {
   height: 41px;
 }
 .tm-hr { border-color: #c79c60; }
-.tm-daily-menu-container { overflow: hidden; }
+.tm-daily-menu-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
 
 /* Menu */
 .tm-side-menu {
