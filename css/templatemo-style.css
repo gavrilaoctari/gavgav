@@ -771,4 +771,9 @@ button.tm-more-button {
   .tm-welcome-content { margin-bottom: 60px; }
 }
 
+.tm-daily-menu-container{
+    display:flex !important;
+    align-items:center;
+    gap:40px;
+}
 
