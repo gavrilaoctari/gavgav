@@ -768,7 +768,7 @@ button.tm-more-button {
 
 .tm-section.row {
     display: flex !important;
-    flex-direction: row !important;
+    flex-direction: column !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     gap: 30px !important;
